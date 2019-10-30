@@ -17,7 +17,7 @@
 2.	Activity2主要由三個元件組成 :
       <ul>
         <li><p><code>SeekBar</code>可以拖移更改BMI值的大小(+-15%)。
-        <li><p><code>TextView</code>分別顯示```SeekBar```拖移過程所更改BMI後的體重計算結果，以及SeekBar增減後的BMI值。
+        <li><p><code>TextView</code>分別顯示<code>SeekBar</code>拖移過程所更改BMI後的體重計算結果，以及SeekBar增減後的BMI值。
         <li><p><code>Button</code>分別可以跳回首頁、進入評價頁以及結束應用程式。
       </ul>
 
