@@ -5,15 +5,31 @@
 3.	對本APP進行評價。
 
 # 功能講解
-1.  進入APP後，首頁可以輸入身高以及體重以及觀看兩筆過往紀錄，點擊送出後可以進入Activity2。若輸入試算後BMI過重會跳出Alert視窗，該視窗分別三個Button:Web(跳至瀏覽器)、Tel(撥打電話)、繼續(進入Activity2)。
+1. 進入APP後，MainActivity由四個元件組成 :
+	<ul>
+    <li><p>```EditText```分別輸入身高跟體重。
+    <li><p>```Button```送出結果並跳至Activity2，如果使用者輸入BMI結果大於30系統跳出```AlertDialog```警告視窗，該視窗分別三個```Button```:Web(跳至瀏覽器)、Tel(撥打電話)、繼續(進入Activity2)。
+    <li><p>```TextView```保存紀錄兩筆紀錄。
+    <li><p>```SeekBar```顯示本APP的評價。
+  </ul>
+ 
 
-2.  Activity2可以透過Seek bar滑動更改使用者的BMI值大小(+-15%)，滑動後可以看到目標BMI的體重。點擊下方按鈕可以分別進入Activity3(評分)、Activity1(首頁)以及結束目前Activity。
+2.	Activity2主要由三個元件組成 :
+      <ul>
+        <li><p>```SeekBar```可以拖移更改BMI值的大小(+-15%)。
+        <li><p>```TextView```分別顯示```SeekBar```拖移過程所更改BMI後的體重計算結果，以及SeekBar增減後的BMI值。
+        <li><p>```Button```分別可以跳回首頁、進入評價頁以及結束應用程式。
+      </ul>
 
-3.  進入Activity3透過Rating bar對本APP進行評價，點擊下方按鈕可以回到Activity1(首頁)、或回到Activity2(試算頁)，回到Activity1可以看到剛剛Rating bar的評分結果。
+3.  Activity3主要由兩個元件組成 :
+       <ul>
+       	<li><p>```RatingBar```可對APP進行評價。
+          <li><p>```Button```分別跳回首頁以及回Activity2
+       </ul>
 
 # 此範例須注意
-1.  一個Shared Preference只能儲存一筆資料。
-2.  儲存、讀取Shared Preference須放在對應的生命週期裡。
+1.  一個```SharedPreference```只能儲存一筆資料。
+2.  儲存、讀取```SharedPreference```須放在對應的生命週期裡。
 
 ```Java
 @Override
