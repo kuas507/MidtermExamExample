@@ -7,8 +7,8 @@
 # 功能講解
 1. 進入APP後，MainActivity由四個元件組成 :
 	<ul>
-    <li><p>```EditText```分別輸入身高跟體重。
-    <li><p>```Button```送出結果並跳至Activity2，如果使用者輸入BMI結果大於30系統跳出```AlertDialog```警告視窗，該視窗分別三個```Button```:Web(跳至瀏覽器)、Tel(撥打電話)、繼續(進入Activity2)。
+    <li><p>```EditText``` 分別輸入身高跟體重。
+    <li><p>```Button``` 送出結果並跳至Activity2，如果使用者輸入BMI結果大於30系統跳出```AlertDialog```警告視窗，該視窗分別三個```Button```:Web(跳至瀏覽器)、Tel(撥打電話)、繼續(進入Activity2)。
     <li><p>```TextView```保存紀錄兩筆紀錄。
     <li><p>```SeekBar```顯示本APP的評價。
   </ul>
