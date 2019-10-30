@@ -5,7 +5,7 @@
 3.	對本APP進行評價。
 
 # 功能講解
-1.  進入APP後，首頁可以輸入身高以及體重以及觀看兩筆過往紀錄，點擊送出後可以進入Activity2。
+1.  進入APP後，首頁可以輸入身高以及體重以及觀看兩筆過往紀錄，點擊送出後可以進入Activity2。若輸入試算後BMI過重會跳出Alert視窗，該視窗分別三個Button:Web(跳至瀏覽器)、Tel(撥打電話)、繼續(進入Activity2)。
 
 2.  Activity2可以透過Seek bar滑動更改使用者的BMI值大小(+-15%)，滑動後可以看到目標BMI的體重。點擊下方按鈕可以分別進入Activity3(評分)、Activity1(首頁)以及結束目前Activity。
 
